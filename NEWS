@@ -1,0 +1,40 @@
+This file lists notable changes in each release. For the full history of all
+changes, see ChangeLog.
+
+2010-09-08: v0.3.0 release
+ * Add support for UPEK TCS4C (USB ID 147e:1000)
+ * Use NSS instead of OpenSSL for GPL compliance
+ * upeksonly driver bug fixes
+ * Fix a crash if a scan was shorter than 8 lines
+ * Fix compilation with C++ compiler
+
+2010-08-19: v0.2.0 release (since 0.1.0-pre2)
+ * Add gdk-pixbuf support for image manipulation
+ * Add udev rules to allow devices to autosuspend
+ * Finish port of AES1610 driver
+ * Add UPEK EikonII (TCRD4C) driver
+
+2007-12-07: v0.0.5 release
+ * AES1610 imaging improvements
+ * Internal cleanups for Authentec drivers
+ * Add support for latest Microsoft Fingerprint Scanner hardware revision
+
+2007-11-22: v0.0.4 release
+ * Enable AES1610 driver thanks to Michele B
+ * Implement identification: one-to-many fingerprint matching (Daniel Drake)
+
+2007-11-19: v0.0.3 release
+ * Add API to access minutiae (Daniel Drake)
+ * Add API to delete enroll data (Daniel Drake)
+ * Add Authentec AES1610 driver (Anthony Bretaudeau)
+
+2007-11-17: v0.0.2 release
+ * Detect reversed scans on AES2501 (Vasily Khoruzhick)
+ * Improved AES2501 scanning
+ * Compatibility with older ImageMagick versions
+ * Add UPEK TouchChip driver (Jan-Michael Brummer)
+ * Add binarization API
+
+2007-11-15: v0.0.1 release
+ * Initial release
+
