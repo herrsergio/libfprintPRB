@@ -1,3 +1,6 @@
+Note for me: LD_LIBRARY_PATH=/usr/local/ImageMagick/lib:/usr/local/nss/mozilla/dist/Linux2.6_x86_glibc_PTH_DBG.OBJ/lib:/usr/local/glib_228/lib:/usr/local/lib:/usr/lib; export LD_LIBRARY_PATH
+
+
 libfprint
 =========
 
